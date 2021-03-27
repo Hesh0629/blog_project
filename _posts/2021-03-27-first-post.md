@@ -4,6 +4,5 @@ title: 첫 게시물입니다!
 Category : Dev
 ---
 
-D+202, i made my first blog by github. I hope this blog to be trace of my military duty.
-
-also after a year, I hope everything goes well.
+D+202, 일병 4호봉 시점에서 페이지를 만들었습니다
+1년 뒤에 이 글을 볼 때에는 코로나 상황이 완화됬으면 좋겠네요 .
