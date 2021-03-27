@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "첫 게시물입니다!"
+title: 첫 게시물입니다!
+Category : Dev
 ---
 
 D+202, i made my first blog by github. I hope this blog to be trace of my military duty.
