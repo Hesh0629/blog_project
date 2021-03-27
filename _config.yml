@@ -98,7 +98,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Sogang Univ,dept of Computer Science and Engineering"
   location         : "Republic of Korea"
-  email            : neogate@sogang.ac.kr
+  email            : "neogate@sogang.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
