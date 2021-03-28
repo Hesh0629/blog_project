@@ -1,10 +1,12 @@
 # main links
 main:
-  - title: "깃허브 방문하기"
-    url: https://github.com/Hesh0629/
   - title: "About"
     url: /about/
   - title: "AI with Machine learning"
     url: /categories/AI/
   - title: "Algorithm 및 문제풀이"
     url: /categories/algorithm/
+  - title: "Daily"
+    url: /categories/daily/
+  - title: "깃허브 방문하기"
+    url: https://github.com/Hesh0629/
