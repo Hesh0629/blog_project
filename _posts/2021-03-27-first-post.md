@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 첫 게시물입니다!
 Category : daily
 ---
