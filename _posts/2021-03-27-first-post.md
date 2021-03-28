@@ -1,7 +1,6 @@
 ---
-layout: default
 title: 첫 게시물입니다!
-Category : daily
+layout: posts
 ---
 
 D+202, 일병 4호봉 시점에서 페이지를 만들었습니다   
