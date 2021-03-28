@@ -24,7 +24,7 @@ description              : "AI와 알고리즘 파는 대학생(이었던 사람
 url                      : "https://hesh0629.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/20201222_191333.jpg"
+teaser                   :  # path of fallback teaser image, e.g.
 logo                     : "/assets/images/retriver.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Seonghwan Han"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/kiki.png"
   bio              : "Sogang Univ | mail: neogate@sogang.ac.kr"
   location         : "Republic of Korea"
   email            : 
