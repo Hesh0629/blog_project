@@ -1,15 +1,15 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Home from './components/home/Home';
-import TitleBox from './titleBox/TitleBox';
+import Header from './header/Header';
 const App = () => {
 	return (
 		<div>
-			<TitleBox class="titleBox"/>
+			<Header/>
 			<div>
 				<Route path="/" component={Home} />
 			</div>
 		</div>
 	);
 };
-export default App;	
+export default App;

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
+
+.header {
+	position:fixed;
+	background: #364f6b;
+	height: 50px;
+	padding: 5px 0px;
+	width: 100%;
+	.wrapper {
+		height:45px;
+		padding-left:20px;
+		padding-right:20px;
+		align-items: center;
+		justify-content:center;
+		.title {
+			display: inline-block;
+			vertical-align: middle;
+			height:45px;
+			width:55%;
+			.titleBox {
+				margin:5px 0;
+				justify-content: center;
+				.titleLink {
+					text-align: left;
+					color: white;
+					text-decoration: none;
+					font-size: 18pt;
+					font-family: 'Gowun Batang', serif;
+				}
+			}
+		}
+		.link {
+			display: inline-block;
+			vertical-align: middle;
+			height:45px;
+			width:45%;
+			.linkBox {
+				margin:5px 0;
+				justify-content: center;
+				text-align: right;
+				.list {
+					display: inline-block;
+					margin: 0 10px;
+					.box {
+						color: white;
+						text-decoration: none;
+						font-size: 18pt;
+						font-family: 'Gowun Batang', serif;
+					}
+				}
+			}
+		}
+	}
+}
