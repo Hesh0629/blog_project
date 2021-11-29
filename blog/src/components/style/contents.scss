@@ -1,8 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
-.contents{
-	background: #F9F3DF;
-	height: auto;
-	padding:50px 10px;
-	font-size:12pt;
-	font-family: 'Noto Sans KR', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@keyframes smoothAppear {
+	from {
+		opacity: 0;
+		transform: translateY(-2%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.wrapper {
+	.introduce {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		height: 550px;
+		padding: 0 200px;
+		background: #f9f9f9;
+		font-size: 18pt;
+		font-family: 'Noto Sans KR', sans-serif;
+		opacity: 1;
+		text-align: center;
+		animation: smoothAppear 1s;
+		.big-text {
+			font-size: 43pt;
+			font-weight: bold;
+			margin: 0;
+			padding: 25px 0;
+		}
+		.interest {
+			padding: 25px 0;
+			text-align: left;
+			font-size: 20pt;
+			font-weight: bold;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+			margin: 0;
+		}
+	}
+	.info{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		height: 550px;
+		padding: 0 200px;
+		background: #f9f9f9;
+		font-size: 18pt;
+		font-family: 'Ubuntu', sans-serif;
+		opacity: 1;
+		animation: smoothAppear 1s;
+		.name{
+			font-size: 32pt;
+			padding:10px 0;
+		}
+	}
+	.contents {
+		background: #cdf0ea;
+		padding: 20px 200px;
+		font-size: 18pt;
+		font-family: 'Noto Sans KR', sans-serif;
+		opacity: 1;
+		animation: smoothAppear 1s;
+	}
 }

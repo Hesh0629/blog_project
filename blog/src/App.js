@@ -4,11 +4,9 @@ import Home from './components/home/Home';
 import Header from './header/Header';
 const App = () => {
 	return (
-		<div>
+		<div class="app">
 			<Header/>
-			<div>
-				<Route path="/" component={Home} />
-			</div>
+			<Route path="/" component={Home} />
 		</div>
 	);
 };

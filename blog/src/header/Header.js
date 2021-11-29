@@ -5,7 +5,7 @@ const TitleBox = () => {
 	return (
 		<div class="header">
 			<div class="wrapper">
-				
+
 				<div class="title">
 					<div class="titleBox">
 						<Link class="titleLink" to="/">
