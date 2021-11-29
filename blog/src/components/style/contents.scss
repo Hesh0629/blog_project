@@ -17,13 +17,68 @@
 		align-content: center;
 		justify-content: center;
 		height: 550px;
-		padding: 0 200px;
-		background: #f9f9f9;
+		padding: 60px 0;
+		background: #f3f1f5;
 		font-size: 18pt;
 		font-family: 'Noto Sans KR', sans-serif;
 		opacity: 1;
 		text-align: center;
 		animation: smoothAppear 1s;
+		.header {
+			display: block;
+			position: fixed;
+			top: 0;
+			background: #716f81;
+			height: 50px;
+			padding: 5px 0px;
+			width: 100%;
+			animation: smoothAppear 1s;
+			.header-wrapper {
+				height: 45px;
+				padding-left: 20px;
+				padding-right: 20px;
+				align-items: center;
+				justify-content: center;
+				.title {
+					display: inline-block;
+					vertical-align: middle;
+					height: 45px;
+					width: 55%;
+					.titleBox {
+						margin: 5px 0;
+						justify-content: center;
+						.titleLink {
+							text-align: left;
+							color: white;
+							text-decoration: none;
+							font-size: 18pt;
+							font-family: 'Gowun Batang', serif;
+						}
+					}
+				}
+				.link {
+					display: inline-block;
+					vertical-align: middle;
+					height: 45px;
+					width: 45%;
+					.linkBox {
+						margin: 5px 0;
+						justify-content: center;
+						text-align: right;
+						.list {
+							display: inline-block;
+							margin: 0 10px;
+							.box {
+								color: white;
+								text-decoration: none;
+								font-size: 18pt;
+								font-family: 'Gowun Batang', serif;
+							}
+						}
+					}
+				}
+			}
+		}
 		.big-text {
 			font-size: 43pt;
 			font-weight: bold;
@@ -42,21 +97,21 @@
 			margin: 0;
 		}
 	}
-	.info{
+	.info {
 		display: flex;
 		flex-direction: column;
 		align-content: center;
 		justify-content: center;
 		height: 550px;
 		padding: 0 200px;
-		background: #f9f9f9;
+		background: #cdc8de;
 		font-size: 18pt;
 		font-family: 'Ubuntu', sans-serif;
 		opacity: 1;
 		animation: smoothAppear 1s;
-		.name{
+		.name {
 			font-size: 32pt;
-			padding:10px 0;
+			padding: 10px 0;
 		}
 	}
 	.contents {
