@@ -1,5 +1,9 @@
 import React from 'react';
 import '../style/contents.scss';
+import gitHubLogo from './GitHub-Mark-64px.png';
+import acmLogo from './logo-crimson.svg';
+import releaseLogo from './release-black-small.png';
+import { MdOutlineAlternateEmail } from 'react-icons/md';
 const Contents = () => {
 	return (
 		<>
@@ -9,13 +13,13 @@ const Contents = () => {
 						<div class="header-wrapper">
 							<div class="title">
 								<div class="titleBox">
-									<div
+									<a
 										class="titleLink"
-										OnClick="location.href ='http://hesh0629.github.io'"
+										href="http://hesh0629.github.io"
 										style={{ cursor: 'pointer' }}
 									>
 										슈뢰딩거의 진돗개
-									</div>
+									</a>
 								</div>
 							</div>
 
@@ -59,19 +63,55 @@ const Contents = () => {
 				</div>
 				<div class="info">
 					<div class="name">Seonghwan Han</div>
-					<div>Sogang Univ. / 2019.03 ~ (군 휴학중)</div>
-					<div>neogate@sogang.ac.kr</div>
-					<div>https://github.com/hesh0629</div>
-					<div>Sogang ICPC Team (2019.09 ~ )</div>
-					<div>Release (2019.09 ~ )</div>
+					<div class="school">Sogang Univ.</div>
+					<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
+					<div>
+						<MdOutlineAlternateEmail
+							style={{ paddingRight: '10px', width: '24px', height: '24px' }}
+						/>
+						neogate@sogang.ac.kr
+					</div>
+					<div>
+						<img
+							src={gitHubLogo}
+							alt="gitHub"
+							width="24px"
+							height="24px"
+							style={{ paddingRight: '10px' }}
+						/>
+						https://github.com/hesh0629
+					</div>
+					<div>
+						<img
+							src={acmLogo}
+							alt="acm"
+							width="24px"
+							height="24px"
+							style={{ paddingRight: '10px' }}
+						/>
+						Sogang ICPC Team (2019.09 ~ )
+					</div>
+					<div>
+						<img
+							src={releaseLogo}
+							alt="release"
+							width="24px"
+							height="24px"
+							style={{ paddingRight: '10px' }}
+						/>
+						Release (2019.09 ~ )
+					</div>
 				</div>
-				<div class="contents">
-					<h1>집짓기 4일차</h1>
-					<p>
-						on task
-						<br />
-						미디어 쿼리 적용 X
-					</p>
+				<div class="DevStack">
+					<h1>
+						<small>
+							<del>(빈약하지만)</del>
+						</small>{' '}
+						Develop Stack
+					</h1>
+					<div class="language"></div>
+					<div class="web"></div>
+					<div class="ML"></div>
 				</div>
 			</div>
 		</>
