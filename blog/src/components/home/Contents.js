@@ -1,9 +1,6 @@
 import React from 'react';
+import Info from './Info'
 import '../style/contents.scss';
-import gitHubLogo from './GitHub-Mark-64px.png';
-import acmLogo from './logo-crimson.svg';
-import releaseLogo from './release-black-small.png';
-import { MdOutlineAlternateEmail } from 'react-icons/md';
 const Contents = () => {
 	return (
 		<>
@@ -22,7 +19,6 @@ const Contents = () => {
 									</a>
 								</div>
 							</div>
-
 							<div class="link">
 								<ul class="linkBox">
 									<li class="list">
@@ -61,47 +57,7 @@ const Contents = () => {
 						</ul>
 					</div>
 				</div>
-				<div class="info">
-					<div class="name">Seonghwan Han</div>
-					<div class="school">Sogang Univ.</div>
-					<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
-					<div>
-						<MdOutlineAlternateEmail
-							style={{ paddingRight: '10px', width: '24px', height: '24px' }}
-						/>
-						neogate@sogang.ac.kr
-					</div>
-					<div>
-						<img
-							src={gitHubLogo}
-							alt="gitHub"
-							width="24px"
-							height="24px"
-							style={{ paddingRight: '10px' }}
-						/>
-						https://github.com/hesh0629
-					</div>
-					<div>
-						<img
-							src={acmLogo}
-							alt="acm"
-							width="24px"
-							height="24px"
-							style={{ paddingRight: '10px' }}
-						/>
-						Sogang ICPC Team (2019.09 ~ )
-					</div>
-					<div>
-						<img
-							src={releaseLogo}
-							alt="release"
-							width="24px"
-							height="24px"
-							style={{ paddingRight: '10px' }}
-						/>
-						Release (2019.09 ~ )
-					</div>
-				</div>
+				<Info/>
 				<div class="DevStack">
 					<h1>
 						<small>
