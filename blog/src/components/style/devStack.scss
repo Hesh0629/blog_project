@@ -1,0 +1,36 @@
+@keyframes smoothAppear {
+	from {
+		opacity: 0;
+		transform: translateY(-5%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.DevStack{
+	background:#f3f1f5;
+	padding:30px 100px;
+	animation: smoothAppear 1s;
+}
+.contents{
+	display:flex;
+	padding-left: 20px;
+	.cmp{
+		padding:30px;
+		display:flex;
+		flex-direction:column;
+		align-content:center;
+		justify-content:center;
+		vertical-align:center;
+		text-align:center;
+	}
+}
+.icon{
+	width:36px;
+	height:36px;
+	margin:0 auto;
+}
+.title{
+	font-size:24pt;
+}
