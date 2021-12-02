@@ -9,13 +9,17 @@
 	}
 }
 .DevStack{
-	background:#f3f1f5;
+	background:#F6F6F6;
 	padding:30px 100px;
 	animation: smoothAppear 1s;
 }
 .contents{
 	display:flex;
-	padding-left: 20px;
+	padding: 0 20px;
+	font-size: 18pt;
+	font-family: 'Noto Sans KR', sans-serif;
+	opacity: 1;
+	animation: smoothAppear 1s;
 	.cmp{
 		padding:30px;
 		display:flex;

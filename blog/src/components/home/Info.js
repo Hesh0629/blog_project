@@ -1,15 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../style/info.scss';
 import gitHubLogo from './img/GitHub-Mark-64px.png';
 import acmLogo from './img/logo-crimson.svg';
 import releaseLogo from './img/release-black-small.png';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
 const Info = () => {
+	const [miliday, setMili] = useState('');
+	useEffect(() => {
+		const interval = setInterval(function () {
+			var now = new Date();
+			//*주의* 월 인덱스가 0부터 시작
+			var stDate = new Date(2020, 8, 7);
+			var edDate = new Date(2022, 0, 17);
+			var stDateTime = stDate.getTime() / (1000 * 60 * 60 * 24);
+			var edDateTime = edDate.getTime() / (1000 * 60 * 60 * 24);
+			var nowTime = now.getTime() / (1000 * 60 * 60 * 24);
+			var percent = ((nowTime - stDateTime) / (edDateTime - stDateTime)) * 100;
+			percent = percent.toFixed(8);
+			percent += '%';
+			setMili(percent);
+		}, 1000);
+		return () => {
+			clearInterval(interval);
+		};
+	});
 	return (
 		<div class="info">
 			<div class="name">Seonghwan Han</div>
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
+			<div class="miliday">
+				ROKA sgt. (2020.09 ~ )
+				<div class="percent">{miliday}</div>
+			</div>
 			<div>
 				<MdOutlineAlternateEmail style={{ paddingRight: '10px', width: '24px', height: '24px' }} />
 				neogate@sogang.ac.kr
@@ -41,4 +64,4 @@ const Info = () => {
 		</div>
 	);
 };
-export default Info;
+export default React.memo(Info);

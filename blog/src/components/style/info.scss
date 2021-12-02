@@ -11,39 +11,40 @@
 	}
 }
 .info {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		justify-content: center;
-		height: 550px;
-		padding: 0 200px;
-		background: #f3f1f5;
-		font-size: 18pt;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	height: 550px;
+	padding: 0 200px;
+	background: #F6F6F6;
+	font-size: 18pt;
+	font-family: 'Ubuntu', sans-serif;
+	opacity: 1;
+	animation: smoothAppear 1s;
+	.name {
+		font-size: 50pt;
+		padding: 10px 0;
+	}
+	.school {
+		display: inline-block;
 		font-family: 'Ubuntu', sans-serif;
-		opacity: 1;
-		animation: smoothAppear 1s;
-		.name {
-			font-size: 50pt;
-			padding: 10px 0;
-		}
-		.school {
-			display:inline-block;
-			font-family: 'Ubuntu', sans-serif;
-			font-size: 36pt;
-			width:auto;
-			margin:0;
-			padding:0;
-		}
-		.dept{
-			font-size: 28pt;
-			padding-bottom:40px;
+		font-size: 36pt;
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	.dept {
+		font-size: 28pt;
+		padding-bottom: 40px;
+	}
+	.miliday{
+		font-size: 28pt;
+		padding: 10px 0;
+		.percent{
+			font-size: 18pt;
+			color:green;
+			padding: 5px 0;
 		}
 	}
-	.contents {
-		background: #f3f1f5;
-		padding: 20px 200px;
-		font-size: 18pt;
-		font-family: 'Noto Sans KR', sans-serif;
-		opacity: 1;
-		animation: smoothAppear 1s;
-	}
+}

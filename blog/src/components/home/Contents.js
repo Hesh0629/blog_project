@@ -14,4 +14,4 @@ const Contents = () => {
 		</>
 	);
 };
-export default Contents;
+export default React.memo(Contents);
