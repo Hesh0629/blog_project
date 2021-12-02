@@ -6,6 +6,7 @@ import releaseLogo from './img/release-black-small.png';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
 const Info = () => {
 	const [miliday, setMili] = useState('');
+	//useEffect로 렌더링될 때 한번, 그리고 특정 값이 바뀔때
 	useEffect(() => {
 		const interval = setInterval(function () {
 			var now = new Date();
@@ -20,6 +21,7 @@ const Info = () => {
 			percent += '%';
 			setMili(percent);
 		}, 100);
+		// cleanUp 함수
 		return () => {
 			clearInterval(interval);
 		};
