@@ -19,7 +19,7 @@ const Info = () => {
 			percent = percent.toFixed(8);
 			percent += '%';
 			setMili(percent);
-		}, 1000);
+		}, 100);
 		return () => {
 			clearInterval(interval);
 		};
