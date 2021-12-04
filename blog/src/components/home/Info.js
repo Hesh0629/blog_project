@@ -12,7 +12,7 @@ const Info = () => {
 			var now = new Date();
 			//*주의* 월 인덱스가 0부터 시작
 			var stDate = new Date(2020, 8, 7);
-			var edDate = new Date(2022, 0, 17);
+			var edDate = new Date(2022, 0, 13);
 			var stDateTime = stDate.getTime() / (1000 * 60 * 60 * 24);
 			var edDateTime = edDate.getTime() / (1000 * 60 * 60 * 24);
 			var nowTime = now.getTime() / (1000 * 60 * 60 * 24);
