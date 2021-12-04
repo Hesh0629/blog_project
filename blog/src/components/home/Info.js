@@ -20,12 +20,12 @@ const Info = () => {
 			percent = percent.toFixed(8);
 			percent += '%';
 			setMili(percent);
-		}, 100);
+		}, 50);
 		// cleanUp 함수
 		return () => {
 			clearInterval(interval);
 		};
-	});
+	},[miliday]);
 	return (
 		<div class="info">
 			<div class="name">Seonghwan Han</div>
