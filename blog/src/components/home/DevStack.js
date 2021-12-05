@@ -15,11 +15,11 @@ const DevStack = () => {
 				<div class="contents">
 					<div class="cmp">
 						<SiCplusplus class="icon"/>
-						C++
+						C++<br/>(main)
 					</div>
 					<div class="cmp">
 						<SiPython  class="icon"/>
-						Python
+						Python<br/>(sub)
 					</div>
 				</div>
 			</div>
