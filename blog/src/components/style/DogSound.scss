@@ -10,41 +10,29 @@
 		transform: translateY(0);
 	}
 }
-.info {
+.dogSound {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	height: 550px;
+	height: auto;
 	padding: 50px 200px;
-	background: #F6F6F6;
-	font-size: 18pt;
-	font-family: 'Ubuntu', sans-serif;
-	opacity: 1;
+	background: #f6f6f6;
+	font-family: 'Noto Sans KR', sans-serif;
 	animation: smoothAppear 1s;
-	.name {
-		font-size: 50pt;
-		padding: 10px 0;
-	}
-	.school {
-		display: inline-block;
-		font-family: 'Ubuntu', sans-serif;
-		font-size: 36pt;
-		width: auto;
-		margin: 0;
-		padding: 0;
-	}
-	.dept {
-		font-size: 28pt;
-		padding-bottom: 40px;
-	}
-	.miliday{
-		font-size: 28pt;
-		padding: 10px 0;
-		.percent{
+	.wrapper {
+		padding: 100px 0px;
+		.big {
+			font-size: 80pt;
+			padding: 10px 0;
+		}
+		.small {
+			font-size: 20pt;
+			padding: 10px 0;
+			padding-bottom: 50px;
+		}
+		.text {
 			font-size: 18pt;
-			color:green;
-			padding: 5px 0;
 		}
 	}
 }

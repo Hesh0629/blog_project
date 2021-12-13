@@ -32,7 +32,7 @@ const Info = () => {
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
 			<div class="miliday">
-				ROKA sgt. (2020.09 ~ )
+				Sergeant. ROKA (2020.09 ~ )
 				<div class="percent">{miliday}</div>
 			</div>
 			<div>

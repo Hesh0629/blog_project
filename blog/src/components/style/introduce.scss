@@ -20,12 +20,15 @@
 	background: #F6F6F6;
 	font-size: 18pt;
 	font-family: 'Noto Sans KR', sans-serif;
-	opacity: 1;
 	text-align: center;
 	animation: smoothAppear 1s;
 	.big-text {
-		font-size: 43pt;
-		font-weight: bold;
+		font-size: 100pt;
+		margin: 0;
+		padding: 25px 0;
+	}
+	.small-text {
+		font-size: 25pt;
 		margin: 0;
 		padding: 25px 0;
 	}
@@ -33,7 +36,6 @@
 		padding: 25px 0;
 		text-align: left;
 		font-size: 20pt;
-		font-weight: bold;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
