@@ -1,9 +1,9 @@
 import React from 'react';
-import useScrollFadeIn  from './useScrollFadeIn';
+import useScrollFadeIn from './useScrollFadeIn';
 import '../style/DogSound.scss';
 const DogSound = () => {
-	const effect=useScrollFadeIn('down');
-	const effect2=useScrollFadeIn('down');
+	const effect = useScrollFadeIn('down');
+	const effect2 = useScrollFadeIn('down');
 	return (
 		<>
 			<div class="dogSound">
@@ -36,8 +36,8 @@ const DogSound = () => {
 						그중에서도 과테말라 지역 원두와 예가체프를 좋아합니다. <br />
 						F1 경기가 있는 날 커피를 내리고 밤 경기를 볼 때면 세상 행복할 수가 없습니다. <br />
 						<small>
-							물론 업데이트를 어떻게 했는지 시즌 후반으로 갈수록 느려지는 우리 팀 차량과 타이어 전략을 볼
-							때면 커피잔 옆에 술잔이 살포시 생겨납니다.
+							물론 업데이트를 어떻게 했는지 시즌 후반으로 갈수록 느려지는 우리 팀 차량과 타이어
+							전략을 볼 때면 커피잔 옆에 술잔이 살포시 생겨납니다.
 						</small>
 					</div>
 				</div>

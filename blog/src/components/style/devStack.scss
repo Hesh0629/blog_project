@@ -1,40 +1,30 @@
-@keyframes smoothAppear {
-	from {
-		opacity: 0;
-		transform: translateY(-5%);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
+
+.DevStack {
+	background: #f6f6f6;
+	padding: 100px 100px;
 }
-.DevStack{
-	background:#F6F6F6;
-	padding:100px 100px;
-	//animation: smoothAppear 1s;
-}
-.contents{
-	display:flex;
+.contents {
+	display: flex;
 	padding: 0 20px;
 	font-size: 18pt;
 	font-family: 'Noto Sans KR', sans-serif;
 	opacity: 1;
-	//animation: smoothAppear 1s;
-	.cmp{
-		padding:30px;
-		display:flex;
-		flex-direction:column;
-		align-content:center;
-		justify-content:center;
-		vertical-align:center;
-		text-align:center;
+	.cmp {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		vertical-align: center;
+		text-align: center;
 	}
 }
-.icon{
-	width:36px;
-	height:36px;
-	margin:0 auto;
+.icon {
+	width: 36px;
+	height: 36px;
+	margin: 0 auto;
 }
-.title{
-	font-size:24pt;
+.title {
+	font-size: 24pt;
 }

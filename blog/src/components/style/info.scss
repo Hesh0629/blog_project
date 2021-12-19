@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@keyframes smoothAppear {
-	from {
-		opacity: 0;
-		transform: translateY(-5%);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
+
 .info {
 	display: flex;
 	flex-direction: column;
@@ -17,15 +8,16 @@
 	justify-content: center;
 	height: 550px;
 	padding: 50px 200px;
-	background: #F6F6F6;
+	background: #f6f6f6;
 	font-size: 18pt;
 	font-family: 'Ubuntu', sans-serif;
 	opacity: 1;
-	//animation: smoothAppear 1s;
+
 	.name {
 		font-size: 50pt;
 		padding: 10px 0;
 	}
+
 	.school {
 		display: inline-block;
 		font-family: 'Ubuntu', sans-serif;
@@ -34,16 +26,19 @@
 		margin: 0;
 		padding: 0;
 	}
+
 	.dept {
 		font-size: 28pt;
 		padding-bottom: 40px;
 	}
-	.miliday{
+
+	.miliday {
 		font-size: 28pt;
 		padding: 10px 0;
-		.percent{
+
+		.percent {
 			font-size: 18pt;
-			color:green;
+			color: green;
 			padding: 5px 0;
 		}
 	}

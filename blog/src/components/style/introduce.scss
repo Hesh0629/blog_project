@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
-@keyframes smoothAppear {
-	from {
-		opacity: 0;
-		transform: translateY(-5%);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
+
 .introduce {
 	display: flex;
 	flex-direction: column;
@@ -17,21 +8,23 @@
 	height: 550px;
 	padding-top: 200px;
 	padding-bottom: 100px;
-	background: #F6F6F6;
+	background: #f6f6f6;
 	font-size: 18pt;
 	font-family: 'Noto Sans KR', sans-serif;
 	text-align: center;
-	//animation: smoothAppear 1s;
+
 	.big-text {
 		font-size: 100pt;
 		margin: 0;
 		padding: 25px 0;
 	}
+
 	.small-text {
 		font-size: 25pt;
 		margin: 0;
 		padding: 25px 0;
 	}
+
 	.interest {
 		padding: 25px 0;
 		text-align: left;
