@@ -3,9 +3,10 @@ import { useRef, useCallback, useEffect } from 'react';
 const useScrollFadeIn = (dir) => {
 	console.log("시작은 했니...?");
 	const compRef = useRef();
-	const handleScroll = useCallback(entry => {
+	const handleScroll = useCallback(entries => {
 		const { current } = compRef;
-		if (entry[0].isIntersecting) {
+		entries.forEach(entry=>{ // 초기 entry가 배열구성이라서 forEach로 각각 entry에 대해 진행
+			if (entry.isIntersecting) {
 			// 원하는 이벤트를 추가 할 것
 			console.log("asdf");
 			//current.style.transitionProperty = 'opacity transform';
@@ -15,6 +16,7 @@ const useScrollFadeIn = (dir) => {
 			current.style.opacity = 1;
 			current.style.transform = 'translateY(0)';
 		}
+		})
 	}, []);
 
 	useEffect(() => {
