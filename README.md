@@ -1,5 +1,6 @@
 # blog_project
-<img src="preview.png" width=100% />
+<img src="preview.png" width=100%></img>  
+<b>블로그 만들기 프로젝트 with React</b>
 ## ref  
 <ul>
   <li>google font : https://fonts.google.com/</li>
