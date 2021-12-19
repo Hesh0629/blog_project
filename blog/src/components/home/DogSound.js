@@ -1,6 +1,7 @@
 import React from 'react';
 import useScrollFadeIn from './useScrollFadeIn';
 import '../style/DogSound.scss';
+import mclarenLogo from './img/mclaren.png';
 const DogSound = () => {
 	const effect = useScrollFadeIn('down');
 	const effect2 = useScrollFadeIn('down');
@@ -26,7 +27,12 @@ const DogSound = () => {
 				</div>
 				<div class="wrapper" {...effect2}>
 					<div class="big">커피와 F1을 좋아합니다.</div>
-					<div class="small">(요즘은 커피보단 멕라렌이 후반에 삽질해서 속이 쓰립니다.)</div>
+					<img
+					src={mclarenLogo}
+					width="500px"
+					height="70px"
+					alt="mclaren"
+					/>
 					<div class="text">
 						부모님이 예가체프를 수능 보러 가는 날 내려주신 뒤로 커피에 눈을 떴습니다.
 						<br /> 학교 앞 카페에서 브루잉 클래스를 열어줘서 덕분에 좋은 커피들을 찾아다니고
