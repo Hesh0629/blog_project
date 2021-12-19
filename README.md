@@ -3,6 +3,7 @@
 ## ref  
 <ul>
   <li>google font : https://fonts.google.com/</li>
+  <li>이미지 배경 제거 : https://www.remove.bg/ko</li>
   <li>flex 관련 정리글 : https://studiomeal.com/archives/197</li>
   <li>useEffect 관련글1: https://yechoi.tistory.com/87</li>
   <li>useEffect 관련글2: https://react.vlpt.us/basic/16-useEffect.html</li>
