@@ -1,5 +1,5 @@
 # blog_project
-나를 소개하는 블로그 만들기 with React
+<img src="preview.png" width=100% />
 ## ref  
 <ul>
   <li>google font : https://fonts.google.com/</li>
