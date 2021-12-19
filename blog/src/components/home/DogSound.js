@@ -6,7 +6,7 @@ import mclarenLogo from './img/mclaren.png';
 const DogSound = () => {
 	const effect = useScrollFadeIn('down');
 	const effect2 = useScrollFadeIn('down');
-	return (
+	return (  
 		<>
 			<div class="dogSound">
 				<div class="wrapper" {...effect}>
