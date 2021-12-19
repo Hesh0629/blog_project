@@ -20,6 +20,10 @@
 			font-size: 20pt;
 			padding: 10px 0;
 			padding-bottom: 50px;
+			&.reallyDogSound {
+				font-weight: bold;
+				font-style: oblique;
+			}
 		}
 		.text {
 			font-size: 18pt;
