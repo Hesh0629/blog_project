@@ -1,4 +1,5 @@
 import React from 'react';
+import useScrollFadeIn  from './useScrollFadeIn';
 import {
 	SiCplusplus,
 	SiPython,
@@ -7,14 +8,15 @@ import {
 	SiJavascript,
 	SiReact,
 	SiNodedotjs,
-	SiKeras,
-	SiPandas,
+	//SiKeras,
+	//SiPandas,
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import '../style/devStack.scss';
 const DevStack = () => {
+	const effect=useScrollFadeIn('right');
 	return (
-		<div class="DevStack">
+		<div class="DevStack" {...effect}>
 			<h1 style={{ margin: '0', padding: '30px 0' }}>
 				<small>
 					<del>(빈약하지만)</del>

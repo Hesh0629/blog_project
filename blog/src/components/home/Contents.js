@@ -9,7 +9,7 @@ const Contents = () => {
 		<>
 			<div class="wrapper">
 				<Introduce />
-				<Info/>
+				<Info />
 				<DevStack />
 				<DogSound />
 			</div>

@@ -4,6 +4,7 @@ import gitHubLogo from './img/GitHub-Mark-64px.png';
 import acmLogo from './img/logo-crimson.svg';
 import releaseLogo from './img/release-black-small.png';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
+import useScrollFadeIn  from './useScrollFadeIn';
 const Info = () => {
 	const [miliday, setMili] = useState('');
 	//useEffect로 렌더링될 때 한번, 그리고 특정 값이 바뀔때
@@ -26,8 +27,9 @@ const Info = () => {
 			clearInterval(interval);
 		};
 	},[miliday]);
+	const effect=useScrollFadeIn('right');
 	return (
-		<div class="info">
+		<div class="info" {...effect}>
 			<div class="name">Seonghwan Han</div>
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>

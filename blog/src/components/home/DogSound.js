@@ -1,10 +1,13 @@
 import React from 'react';
+import useScrollFadeIn  from './useScrollFadeIn';
 import '../style/DogSound.scss';
 const DogSound = () => {
+	const effect=useScrollFadeIn('down');
+	const effect2=useScrollFadeIn('down');
 	return (
 		<>
 			<div class="dogSound">
-				<div class="wrapper">
+				<div class="wrapper" {...effect}>
 					<div class="big">데이터를 다루는 것을 좋아합니다.</div>
 					<div class="small">(아직 미숙하지만요)</div>
 					<div class="text">
@@ -21,7 +24,7 @@ const DogSound = () => {
 						그렇기에 Data science와 Computer Vision에 대하여 공부 중입니다.
 					</div>
 				</div>
-				<div class="wrapper">
+				<div class="wrapper" {...effect2}>
 					<div class="big">커피와 F1을 좋아합니다.</div>
 					<div class="small">(요즘은 커피보단 멕라렌이 후반에 삽질해서 속이 쓰립니다.)</div>
 					<div class="text">
