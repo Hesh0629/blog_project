@@ -1,6 +1,14 @@
 import { useRef, useCallback, useEffect } from 'react';
 
-const useScrollFadeIn = (dir) => {
+const useScrollFadeIn = (dir, del) => {
+	const handleDelay = (del) => {
+		switch (del) {
+			case del:
+				return del;
+			default:
+				return 0;
+		}
+	};
 	console.log('시작은 했니...?');
 	const compRef = useRef();
 	const handleScroll = useCallback((entries) => {
@@ -13,6 +21,8 @@ const useScrollFadeIn = (dir) => {
 				current.style.transitionDuration = '1s';
 				current.style.opacity = 1;
 				current.style.transform = 'translateY(0)';
+				current.style.transform = 'translateX(0)';
+				current.style.transitionDelay = `${ handleDelay(del)}s`;
 			}
 		});
 	}, []);
@@ -20,9 +30,9 @@ const useScrollFadeIn = (dir) => {
 	useEffect(() => {
 		let observer;
 		const { current } = compRef;
-
+		
 		if (current) {
-			observer = new IntersectionObserver(handleScroll, { threshold: 0.3 });
+			observer = new IntersectionObserver(handleScroll, { threshold: 0.3});
 			observer.observe(current);
 			return () => observer && observer.disconnect();
 		}

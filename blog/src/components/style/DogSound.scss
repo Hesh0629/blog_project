@@ -13,7 +13,8 @@
 	.wrapper {
 		padding: 100px 0px;
 		.big {
-			font-size: 80pt;
+			position: relative;
+			font-size: 60pt;
 			padding: 10px 0;
 		}
 		.small {
@@ -26,7 +27,7 @@
 			}
 		}
 		.text {
-			font-size: 18pt;
+			font-size: 15pt;
 		}
 	}
 }

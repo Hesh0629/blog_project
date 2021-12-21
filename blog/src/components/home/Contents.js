@@ -12,6 +12,7 @@ const Contents = () => {
 				<Info />
 				<DevStack />
 				<DogSound />
+				<a href="https://www.vecteezy.com/free-vector/statistics-icon">Statistics Icon Vectors by Vecteezy</a>
 			</div>
 		</>
 	);

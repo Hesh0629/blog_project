@@ -27,7 +27,7 @@ const DogSound = () => {
 					</div>
 				</div>
 				<div class="wrapper" {...effect2}>
-					<div class="big">커피와 F1을 좋아합니다.<img src={mclarenLogo} width="320px" height="95px" alt="mclarenF1 Car"/></div>
+					<div class="big">커피와 F1을 좋아합니다.<img src={mclarenLogo} width="320px" height="95px" style={{position:"absolute",top:"25px",paddingLeft:"20px"}} alt="mclarenF1 Car"/></div>
 					<div class="small reallyDogSound">"내년 우승은 멕라렌"</div>
 					<div class="text">
 						부모님이 예가체프를 수능 보러 가는 날 내려주신 뒤로 커피에 눈을 떴습니다.

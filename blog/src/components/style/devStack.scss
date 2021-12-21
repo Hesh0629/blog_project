@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
 
 .DevStack {
+	position: relative;
 	background: #f6f6f6;
-	padding: 100px 100px;
+	padding: 100px 200px;
+	padding-right: 0px;
+	.img {
+		position: absolute;
+		left: 900px;
+		top: 250px;
+	}
 }
 .contents {
 	display: flex;
