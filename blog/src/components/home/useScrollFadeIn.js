@@ -1,15 +1,6 @@
 import { useRef, useCallback, useEffect } from 'react';
 
 const useScrollFadeIn = (dir, del) => {
-	const handleDelay = (del) => {
-		switch (del) {
-			case del:
-				return del;
-			default:
-				return 0;
-		}
-	};
-	console.log('시작은 했니...?');
 	const compRef = useRef();
 	const handleScroll = useCallback((entries) => {
 		const { current } = compRef;
@@ -22,10 +13,10 @@ const useScrollFadeIn = (dir, del) => {
 				current.style.opacity = 1;
 				current.style.transform = 'translateY(0)';
 				current.style.transform = 'translateX(0)';
-				current.style.transitionDelay = `${ handleDelay(del)}s`;
+				current.style.transitionDelay = `${del}s`;
 			}
 		});
-	}, []);
+	}, [del]);
 
 	useEffect(() => {
 		let observer;

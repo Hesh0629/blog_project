@@ -7,6 +7,8 @@ import { MdOutlineAlternateEmail } from 'react-icons/md';
 import useScrollFadeIn from './useScrollFadeIn';
 const Info = () => {
 	const [miliday, setMili] = useState('');
+	const [leftDay, setLeft] = useState('');
+	const [doneDay, setDone] = useState('');
 	//useEffect로 렌더링될 때 한번, 그리고 특정 값이 바뀔때
 	useEffect(() => {
 		const interval = setInterval(function () {
@@ -14,13 +16,18 @@ const Info = () => {
 			//*주의* 월 인덱스가 0부터 시작
 			var stDate = new Date(2020, 8, 7);
 			var edDate = new Date(2022, 0, 13);
+			var gapDay = (edDate.getTime()-now.getTime())/1000/60/60/24;
+			var overDay = (edDate.getTime()-stDate.getTime())/1000/60/60/24;
 			var stDateTime = stDate.getTime() / (1000 * 60 * 60 * 24);
 			var edDateTime = edDate.getTime() / (1000 * 60 * 60 * 24);
 			var nowTime = now.getTime() / (1000 * 60 * 60 * 24);
 			var percent = ((nowTime - stDateTime) / (edDateTime - stDateTime)) * 100;
 			percent = percent.toFixed(8);
-			percent += '%';
-			setMili(percent);
+			gapDay=gapDay.toFixed(0);
+			overDay=overDay.toFixed(0);
+			setMili(`${percent}%`);
+			setDone(`D+${overDay}`);
+			setLeft(`D-${gapDay}`);
 		}, 50);
 		// cleanUp 함수
 		return () => {
@@ -34,7 +41,9 @@ const Info = () => {
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
 			<div class="miliday">
-				Sergeant. ROKA (2020.09 ~ )<div class="percent">{miliday}</div>
+				Sergeant. ROKA (2020.09 ~ ) {doneDay}
+				<div class="percent">{miliday}</div>
+				<div class="percent">{leftDay}</div>
 			</div>
 			<div>
 				<MdOutlineAlternateEmail style={{ paddingRight: '10px', width: '24px', height: '24px' }} />
