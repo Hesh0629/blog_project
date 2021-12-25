@@ -1,3 +1,4 @@
+@import '~include-media/dist/include-media';
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
 @keyframes smoothAppear {
 	from {
@@ -17,12 +18,13 @@
 	height: 50px;
 	padding: 5px 0px;
 	width: 100%;
+	@media (max-width: 1080px) {
+		width: 1200px;
+	}
 	animation: smoothAppear 1s;
 	z-index:1;
 	.header-wrapper {
 		height: 45px;
-		padding-left: 40px;
-		padding-right: 40px;
 		align-items: center;
 		justify-content: center;
 		.title {
@@ -47,8 +49,10 @@
 			display: inline-block;
 			vertical-align: middle;
 			height: 45px;
-			width: 60%;
+			width: 50%;
+			padding:0;
 			.linkBox {
+				padding:0;
 				margin: 5px 0;
 				justify-content: center;
 				text-align: right;

@@ -1,6 +1,9 @@
+@import '~include-media/dist/include-media';
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
 
 .wrapper {
-	//background-image: url( "../home/img/wallpaper.jpg" );
-	background-color:white;
+	background-color: white;
+	@media (max-width: 1080px) {
+		width: 1200px;
+	}
 }
