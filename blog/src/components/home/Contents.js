@@ -3,6 +3,7 @@ import Info from './Info';
 import Introduce from './Introduce';
 import DevStack from './DevStack';
 import DogSound from './DogSound';
+import Footer from './Footer';
 import '../style/contents.scss';
 const Contents = () => {
 	return (
@@ -12,7 +13,7 @@ const Contents = () => {
 				<Info />
 				<DevStack />
 				<DogSound />
-				<a href="https://www.vecteezy.com/free-vector/statistics-icon">Statistics Icon Vectors by Vecteezy</a>
+				<Footer />
 			</div>
 		</>
 	);

@@ -22,9 +22,9 @@ const Introduce = () => {
 							AI with ML <small>(Computer Vision을 관심있게 공부중입니다)</small>
 						</li>
 						<li>
-							Web develop{' '}
+							Web development{' '}
 							<small>
-								(<del>군대에서 할 수 있어서...</del>)
+								(군대에서 할 수 있어서...)
 							</small>
 						</li>
 					</ul>
