@@ -3,6 +3,7 @@ import '../style/info.scss';
 import gitHubLogo from './img/GitHub-Mark-64px.png';
 import acmLogo from './img/logo-crimson.svg';
 import releaseLogo from './img/release-black-small.png';
+import rokaLogo from './img/ROKA.png';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
 import useScrollFadeIn from './useScrollFadeIn';
 const Info = () => {
@@ -41,7 +42,7 @@ const Info = () => {
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
 			<div class="miliday">
-				Sergeant. ROKA (2020.09 ~ ) {doneDay}
+				<img src={rokaLogo} alt="ROKA" width="40px" height="40px" style={{paddingRight:"10px"}}/>Sergeant. ROKA (2020.09 ~ ) {doneDay}
 				<div class="percent">{miliday}</div>
 				<div class="percent">{leftDay}</div>
 			</div>
