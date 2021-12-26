@@ -21,7 +21,7 @@ const DogSound = () => {
 						꿈은 인체와 관련된 데이터들을 수집, 가공하여 의미 있게 사용될 수 있도록 분석하는
 						것입니다.
 						<br />
-						특히 유전 정보와 질병 분석에 관심이 있습니다.
+						특히 유전 정보와 질병 진단에 관심이 있습니다.
 						<br />
 						그렇기에 Data science와 Computer Vision에 대하여 공부 중입니다.
 					</div>
@@ -30,7 +30,7 @@ const DogSound = () => {
 					<div class="big">커피와 F1을 좋아합니다.<img src={mclarenLogo} width="320px" height="95px" style={{position:"absolute",top:"25px",paddingLeft:"20px"}} alt="mclarenF1 Car"/></div>
 					<div class="small reallyDogSound">"내년 우승은 멕라렌"</div>
 					<div class="text">
-						부모님이 예가체프를 수능 보러 가는 날 내려주신 뒤로 커피에 눈을 떴습니다.
+						부모님이 수능 보러 가는 날 예가체프를 내려주신 뒤로 커피에 눈을 떴습니다.
 						<br /> 학교 앞 카페에서 브루잉 클래스를 열어줘서 덕분에 좋은 커피들을 찾아다니고
 						있습니다. <br />
 						원두의 생물학적 종과 지역별 품종, 로스팅 그리고 브루잉까지 책까지 사가며 공부할 정도로
