@@ -1,5 +1,5 @@
 # blog_project
-<img src="preview.png" width=100%></img>  
+<img src="preview2.png" width=100%></img>  
 <b>블로그 만들기 프로젝트 with React</b>  
 <b>Link: https://hesh0629.github.io</b>
 ## ref  
