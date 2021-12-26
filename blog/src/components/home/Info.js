@@ -16,7 +16,7 @@ const Info = () => {
 			//*주의* 월 인덱스가 0부터 시작
 			var stDate = new Date(2020, 8, 7);
 			var edDate = new Date(2022, 0, 13);
-			var gapDay = (edDate.getTime()-now.getTime())/1000/60/60/24;
+			var gapDay = (edDate.getTime()-now.getTime())/1000/60/60/24+1;
 			var overDay = (now.getTime()-stDate.getTime())/1000/60/60/24;
 			var stDateTime = stDate.getTime() / (1000 * 60 * 60 * 24);
 			var edDateTime = edDate.getTime() / (1000 * 60 * 60 * 24);
