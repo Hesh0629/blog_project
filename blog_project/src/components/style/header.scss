@@ -1,0 +1,72 @@
+@import '~include-media/dist/include-media';
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
+@keyframes smoothAppear {
+	from {
+		opacity: 0;
+		transform: translateY(-5%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.header {
+	display: block;
+	position: fixed;
+	top: 0;
+	background: black;
+	height: 50px;
+	padding: 5px 0px;
+	width: 100%;
+	@media (max-width: 1080px) {
+		width: 1200px;
+	}
+	animation: smoothAppear 1s;
+	z-index: 1;
+	.header-wrapper {
+		height: 45px;
+		align-items: center;
+		justify-content: center;
+		.title {
+			display: inline-block;
+			vertical-align: middle;
+			height: 45px;
+			width: 40%;
+			.titleBox {
+				margin: 5px 0;
+				justify-content: center;
+				text-align: left;
+				.titleLink {
+					display: block;
+					color: white;
+					text-decoration: none;
+					font-size: 18pt;
+					font-family: 'Gowun Batang', serif;
+				}
+			}
+		}
+		.link {
+			display: inline-block;
+			vertical-align: middle;
+			height: 45px;
+			width: 50%;
+			padding: 0;
+			.linkBox {
+				padding: 0;
+				margin: 5px 0;
+				justify-content: center;
+				text-align: right;
+				.list {
+					display: inline-block;
+					margin: 0 10px;
+					.box {
+						color: white;
+						text-decoration: none;
+						font-size: 18pt;
+						font-family: 'Gowun Batang', serif;
+					}
+				}
+			}
+		}
+	}
+}
