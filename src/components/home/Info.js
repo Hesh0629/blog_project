@@ -41,10 +41,8 @@ const Info = () => {
 			<div class="name">Seonghwan Han</div>
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
-			<div class="miliday">
-				<img src={rokaLogo} alt="ROKA" width="40px" height="40px" style={{paddingRight:"10px"}}/>Sergeant. ROKA (2020.09 ~ ) {doneDay}
-				<div class="percent">{miliday}</div>
-				<div class="percent">{leftDay}</div>
+			<div >
+				<img src={rokaLogo} alt="ROKA" width="24px" height="24px" style={{paddingRight:"10px"}}/>Reserve Sergeant. ROKA
 			</div>
 			<div>
 				<MdOutlineAlternateEmail style={{ paddingRight: '10px', width: '24px', height: '24px' }} />
