@@ -9,8 +9,8 @@ import {
 	SiJavascript,
 	SiReact,
 	SiNodedotjs,
-	//SiKeras,
-	//SiPandas,
+	SiPandas,
+	SiTensorflow
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import '../style/devStack.scss';
@@ -22,10 +22,7 @@ const DevStack = () => {
 			<img class="img" src={dataVector} alt="dataVector" {...effect2} />
 			<div {...effect}>
 				<h1 style={{ margin: '0', padding: '30px 0' }}>
-					<small>
-						<del>(빈약하지만)</del>
-					</small>{' '}
-					Develop Stack
+					사용중인 언어, 스택
 				</h1>
 				<div class="language">
 					<div class="title">language</div>
@@ -75,6 +72,14 @@ const DevStack = () => {
 						<div class="cmp">
 							<GrMysql class="icon" />
 							MySQL
+						</div>
+						<div class="cmp">
+							<SiPandas class="icon" />
+							Pandas
+						</div>
+						<div class="cmp" style={{padding: '30px 10px'}}>
+							<SiTensorflow class="icon" />
+							TensorFlow
 						</div>
 					</div>
 				</div>

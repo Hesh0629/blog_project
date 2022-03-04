@@ -9,7 +9,7 @@ const Introduce = () => {
 			<Header />
 			<div {...effect}>
 				<div class="big-text">배우는 사람</div>
-				<div class="small-text">아직 갈길이 먼 3학기 휴학생입니다.</div>
+				<div class="small-text">아직 갈길이 먼 4학기 휴학생입니다.</div>
 				<div class="interest">
 					<div style={{ margin: '0', textAlign: 'center', padding: '20px 0', fontSize: '30pt' }}>
 						Interested in...
@@ -24,7 +24,7 @@ const Introduce = () => {
 						<li>
 							Web development{' '}
 							<small>
-								(군대에서 할 수 있어서...)
+								(이건 군대에서 할 수 있었어서...)
 							</small>
 						</li>
 					</ul>
