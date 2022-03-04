@@ -14,7 +14,7 @@ const Header = () => {
 				<div class="link">
 					<ul class="linkBox">
 						<li class="list">
-							<a class="box" href="http://www.hesh-lumineux.dev">
+							<a class="box" href="hesh-lumineux.dev">
 								Blog
 							</a>
 						</li>
