@@ -28,7 +28,7 @@ const DogSound = () => {
 				</div>
 				<div class="wrapper" {...effect2}>
 					<div class="big">커피와 F1을 좋아합니다.<img src={mclarenLogo} width="320px" height="95px" style={{position:"absolute",top:"25px",paddingLeft:"20px"}} alt="mclarenF1 Car"/></div>
-					<div class="small reallyDogSound">"내년 우승은 멕라렌"</div>
+					<div class="small reallyDogSound">"올해는 망했지만 내년 우승은 멕라렌!"</div>
 					<div class="text">
 						부모님이 수능 보러 가는 날 예가체프를 내려주신 뒤로 커피에 눈을 떴습니다.
 						<br /> 학교 앞 카페에서 브루잉 클래스를 열어줘서 덕분에 좋은 커피들을 찾아다니고
@@ -38,8 +38,9 @@ const DogSound = () => {
 						그중에서도 과테말라 지역 원두와 예가체프를 좋아합니다. <br />
 						F1 경기가 있는 날 커피를 내리고 밤 경기를 볼 때면 세상 행복할 수가 없습니다. <br />
 						<small>
-							물론 업데이트를 어떻게 했는지 시즌 후반으로 갈수록 느려지는 우리 팀 차량과 타이어
-							전략을 볼 때면 커피잔 옆에 술잔이 살포시 생겨납니다.
+							+ (2022.03.24) 개막전 바레인 GP를 보니 올해는 완전히 망한듯 싶습니다.<br/>
+							규정 개편되고 기회라고 생각했는데 엔진, 에어로, 드라이버 삼위일체로 망했네요. <br/>
+							사실 나... 티포시였을지도...?
 						</small>
 					</div>
 				</div>

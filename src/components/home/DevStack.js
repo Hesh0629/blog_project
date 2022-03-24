@@ -8,7 +8,7 @@ import {
 	SiCss3,
 	SiJavascript,
 	SiReact,
-	SiNodedotjs,
+	SiScikitlearn,
 	SiPandas,
 	SiTensorflow
 } from 'react-icons/si';
@@ -66,16 +66,16 @@ const DevStack = () => {
 					<div class="title">Studying</div>
 					<div class="contents">
 						<div class="cmp">
-							<SiNodedotjs class="icon" />
-							Node.js
-						</div>
-						<div class="cmp">
 							<GrMysql class="icon" />
 							MySQL
 						</div>
 						<div class="cmp">
 							<SiPandas class="icon" />
 							Pandas
+						</div>
+						<div class="cmp">
+							<SiScikitlearn class="icon" />
+							Scikitlearn
 						</div>
 						<div class="cmp" style={{padding: '30px 10px'}}>
 							<SiTensorflow class="icon" />
