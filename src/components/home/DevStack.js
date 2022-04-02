@@ -12,6 +12,7 @@ import {
 	SiPandas,
 	SiTensorflow
 } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
 import '../style/devStack.scss';
 const DevStack = () => {
 	const effect = useScrollFadeIn('right');
