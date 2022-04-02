@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # blog_project
 <img src="preview2.png" width=100%></img>  
 <b>블로그 만들기 프로젝트 with React</b>  
@@ -16,3 +17,8 @@
   <li>Git 사용법 정리 https://wordbe.tistory.com/entry/Git-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%ACcommit-push-pull-request-merge-%EB%93%B1/li>
   <li>VScode git main push 관련 https://jobc.tistory.com/177</li>
 </ul>
+=======
+# Hesh0629.github.io
+<div>간단히 나 자신을 소개하는 사이트 with React</div>
+edit on goormIDE☁️
+>>>>>>> 27e13b052012b955ce05984943862b14513fca5a
