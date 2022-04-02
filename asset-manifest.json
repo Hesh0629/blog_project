@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91258daf.css",
+    "main.js": "/static/js/main.2e910954.js",
+    "static/js/787.93efd7dd.chunk.js": "/static/js/787.93efd7dd.chunk.js",
+    "static/media/data_vector.png": "/static/media/data_vector.e26b9a1178d65e77013d.png",
+    "static/media/ROKA.png": "/static/media/ROKA.c032cb3159e357e73daf.png",
+    "static/media/mclaren.png": "/static/media/mclaren.b5df0739c7acacffffdb.png",
+    "static/media/logo-crimson.svg": "/static/media/logo-crimson.4b95846be8ed781a6eb083e76887bb8b.svg",
+    "index.html": "/index.html",
+    "main.91258daf.css.map": "/static/css/main.91258daf.css.map",
+    "main.2e910954.js.map": "/static/js/main.2e910954.js.map",
+    "787.93efd7dd.chunk.js.map": "/static/js/787.93efd7dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91258daf.css",
+    "static/js/main.2e910954.js"
+  ]
+}
