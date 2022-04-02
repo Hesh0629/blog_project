@@ -66,10 +66,6 @@ const DevStack = () => {
 					<div class="title">Studying</div>
 					<div class="contents">
 						<div class="cmp">
-							<GrMysql class="icon" />
-							MySQL
-						</div>
-						<div class="cmp">
 							<SiPandas class="icon" />
 							Pandas
 						</div>

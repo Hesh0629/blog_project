@@ -40,7 +40,7 @@ const Info = () => {
 		<div class="info" {...effect}>
 			<div class="name">Seonghwan Han</div>
 			<div class="school">Sogang Univ.</div>
-			<div class="dept">Department of Computer Science & Engineering (2019.03 ~ )</div>
+			<div class="dept">Department of Computer Science & Engineering</div>
 			<div >
 				<img src={rokaLogo} alt="ROKA" width="24px" height="24px" style={{paddingRight:"10px"}}/>Reserve Sergeant. ROKA
 			</div>
@@ -60,7 +60,7 @@ const Info = () => {
 			</div>
 			<div>
 				<img src={acmLogo} alt="acm" width="24px" height="24px" style={{ paddingRight: '10px' }} />
-				Sogang ICPC Team (2019.09 ~ )
+				Sogang ICPC Team
 			</div>
 			<div>
 				<img
@@ -70,7 +70,7 @@ const Info = () => {
 					height="24px"
 					style={{ paddingRight: '10px' }}
 				/>
-				Release (2019.09 ~ )
+				Release
 			</div>
 		</div>
 	);

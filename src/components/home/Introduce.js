@@ -16,16 +16,10 @@ const Introduce = () => {
 					</div>
 					<ul style={{ width: 'auto', margin: '0 auto' }}>
 						<li>
-							Algorithm <small>(그 중에서도 그래프를 좋아합니다.)</small>
-						</li>
-						<li>
 							AI with ML <small>(Computer Vision을 관심있게 공부중입니다)</small>
 						</li>
 						<li>
-							Web development{' '}
-							<small>
-								(이건 군대에서 할 수 있었어서...)
-							</small>
+							Algorithm <small>(그 중에서도 그래프를 좋아합니다.)</small>
 						</li>
 					</ul>
 				</div>

@@ -2,10 +2,10 @@ import React from 'react';
 import useScrollFadeIn from './useScrollFadeIn';
 import '../style/DogSound.scss';
 import mclarenLogo from './img/mclaren.png';
-//import mclarenF1_Car from './img/mclarenF1_Car.jpg';
 const DogSound = () => {
 	const effect = useScrollFadeIn('down');
 	const effect2 = useScrollFadeIn('down');
+	const effect3 = useScrollFadeIn('down');
 	return (  
 		<>
 			<div class="dogSound">
@@ -42,6 +42,16 @@ const DogSound = () => {
 							규정 개편되고 기회라고 생각했는데 엔진, 에어로, 드라이버 삼위일체로 망했네요. <br/>
 							사실 나... 티포시였을지도...?
 						</small>
+					</div>
+				</div>
+				<div class="wrapper" {...effect3}>
+					<div class="big">같이 검도하실래요?</div>
+					<div class="text">
+						초등학교때 시작했다가, 중학교 때 초단을 따고 그만둔 검도를 대학교 때 다시 시작해서 지금도 하고 있습니다. <br/>
+						아직 자세가 좋진 않지만 열심히 고쳐나가고 있어요. 목표는 크게 없지만 배려하는 검도와 예쁜 검도를 지향합니다.<br/>
+						기술도 기술이지만 살면서 필요한 여러가지를 배울 수 있어서 꾸준히 시간내서 다니고 있답니다.<br/> 
+						5살 꼬맹이부터 올해 여든을 맞이하는 어르신들까지, 누구나 오래할 수 있는 검도!  같이 하실 생각 없으신가요<br/>
+						<b><em>문의는 서강 검우회에 주세요!</em></b>
 					</div>
 				</div>
 			</div>
