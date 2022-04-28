@@ -15,8 +15,8 @@ const Info = () => {
 		const interval = setInterval(function () {
 			var now = new Date();
 			//*주의* 월 인덱스가 0부터 시작
-			var stDate = new Date(2020, 8, 7);
-			var edDate = new Date(2022, 2, 6);
+			var stDate = new Date(2022, 2, 6);
+			var edDate = new Date(2030, 11, 31);
 			var gapDay = (edDate.getTime()-now.getTime())/1000/60/60/24+1;
 			var overDay = (now.getTime()-stDate.getTime())/1000/60/60/24;
 			var stDateTime = stDate.getTime() / (1000 * 60 * 60 * 24);
@@ -43,6 +43,9 @@ const Info = () => {
 			<div class="dept">Department of Computer Science & Engineering</div>
 			<div >
 				<img src={rokaLogo} alt="ROKA" width="24px" height="24px" style={{paddingRight:"10px"}}/>Reserve Sergeant. ROKA
+			</div>
+			<div style={{paddingLeft:"34px"}}>
+				Reserve Duty {miliday}
 			</div>
 			<div>
 				<MdOutlineAlternateEmail style={{ paddingRight: '10px', width: '24px', height: '24px' }} />

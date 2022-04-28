@@ -9,6 +9,7 @@
 	justify-content: center;
 	height: auto;
 	padding: 50px 0px;
+	padding-bottom: 20px;
 	padding-left: 120px;
 	@media (max-width: 1080px) {
 		padding-left: 80px;
@@ -28,7 +29,7 @@
 		.small {
 			font-size: 20pt;
 			padding: 10px 0;
-			padding-bottom: 50px;
+			padding-bottom: 25px;
 			&.reallyDogSound {
 				font-weight: bold;
 				font-style: oblique;
