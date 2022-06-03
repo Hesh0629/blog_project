@@ -9,7 +9,7 @@ const Introduce = () => {
 			<Header />
 			<div {...effect}>
 				<div class="big-text">배우는 사람</div>
-				<div class="small-text">3학기를 마치고 군 휴학하고 와서 아직 가야 할 길이 먼 사람입니다.</div>
+				<div class="small-text">몇달 뒤면 4학기로 복학하는 갈길 먼 휴학생입니다.</div>
 				<div class="interest">
 					<div style={{ margin: '0', textAlign: 'center', padding: '20px 0', fontSize: '30pt' }}>
 						Interested in...
