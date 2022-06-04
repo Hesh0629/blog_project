@@ -30,14 +30,10 @@ const DevStack = () => {
 						<div class="cmp">
 							<SiCplusplus class="icon" />
 							C++
-							<br />
-							(main)
 						</div>
 						<div class="cmp">
 							<SiPython class="icon" />
 							Python
-							<br />
-							(sub)
 						</div>
 					</div>
 				</div>
@@ -65,17 +61,17 @@ const DevStack = () => {
 				<div class="Studying">
 					<div class="title">Studying</div>
 					<div class="contents">
-						<div class="cmp">
-							<SiPandas class="icon" />
-							Pandas
+						<div class="cmp" style={{padding: '30px 10px'}}>
+							<SiTensorflow class="icon" />
+							TensorFlow
 						</div>
 						<div class="cmp">
 							<SiScikitlearn class="icon" />
 							Scikitlearn
 						</div>
-						<div class="cmp" style={{padding: '30px 10px'}}>
-							<SiTensorflow class="icon" />
-							TensorFlow
+						<div class="cmp">
+							<SiPandas class="icon" />
+							Pandas
 						</div>
 					</div>
 				</div>

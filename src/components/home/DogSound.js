@@ -2,6 +2,7 @@ import React from 'react';
 import useScrollFadeIn from './useScrollFadeIn';
 import '../style/DogSound.scss';
 import mclarenLogo from './img/mclaren.png';
+import kendo from './img/kendo.jpg';
 const DogSound = () => {
 	const effect = useScrollFadeIn('down');
 	const effect2 = useScrollFadeIn('down');
@@ -24,7 +25,7 @@ const DogSound = () => {
 					</div>
 				</div>
 				<div class="wrapper" {...effect2}>
-					<div class="big">커피와 F1을 좋아합니다.<img src={mclarenLogo} width="320px" height="95px" style={{position:"absolute",top:"25px",paddingLeft:"20px"}} alt="mclarenF1 Car"/></div>
+					<div class="big">커피와 F1을 좋아합니다.<img src={mclarenLogo} width="320px" height="95px" style={{position:"absolute", paddingLeft:"20px"}} alt="mclarenF1 Car"/></div>
 					<div class="small reallyDogSound">"<small>(올해는 글렀지만) </small>내년 컨챔 우승은 멕라렌!"</div>
 					<div class="text">
 						부모님이 수능 보러 가는 날 예가체프를 내려주신 뒤로 커피에 눈을 떴습니다.
@@ -37,7 +38,7 @@ const DogSound = () => {
 					</div>
 				</div>
 				<div class="wrapper" {...effect3}>
-					<div class="big">같이 검도하실래요?</div>
+					<div class="big">같이 검도하실래요?<img src={kendo} width="350px" style={{position:"absolute", paddingLeft:"400px"}}/></div>
 					<div class="small reallyDogSound">"뉴비 환영"</div>
 					<div class="text">
 						초등학교때 시작했다가, 중학교 때 초단을 따고 그만둔 검도를 대학교 때 다시 시작해서 지금도 하고 있습니다. <br/>
