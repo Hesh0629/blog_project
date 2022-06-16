@@ -5,7 +5,7 @@ const Footer = () => {
 		<>
 			<div class="footer">
 				<div class="text">
-					<div>Last update : 2022.06.03</div>
+					<div>Last update : 2022.06.16</div>
 					<div>How to Reach me : neogate@sogang.ac.kr</div>
 					<a class="copyright" href="https://www.vecteezy.com/free-vector/statistics-icon">Statistics Icon Vectors by Vecteezy</a>
 				</div>
