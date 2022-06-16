@@ -4,6 +4,7 @@ import Introduce from './Introduce';
 import DevStack from './DevStack';
 import DogSound from './DogSound';
 import Footer from './Footer';
+import News from './News';
 import '../style/contents.scss';
 const Contents = () => {
 	return (
@@ -13,6 +14,7 @@ const Contents = () => {
 				<Info />
 				<DevStack />
 				<DogSound />
+				<News />
 				<Footer />
 			</div>
 		</>
