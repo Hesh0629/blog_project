@@ -4,12 +4,13 @@
 
 .info {
 	display: flex;
+	box-sizing : content-box;
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
 	height: auto;
 	padding: 50px 0;
-	padding-left: 120px;
+	padding-left: 110px;
 	@media (max-width: 1080px) {
 		padding-left: 80px;
 	}

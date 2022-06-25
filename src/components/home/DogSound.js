@@ -38,7 +38,7 @@ const DogSound = () => {
 					</div>
 				</div>
 				<div class="wrapper" {...effect3}>
-					<div class="big">같이 검도하실래요?<img src={kendo} width="350px" style={{position:"absolute", paddingLeft:"400px"}}/></div>
+					<div class="big">같이 검도하실래요?<img src={kendo} width="350px" style={{position:"absolute", width:"350px", paddingLeft:"400px", boxSizing:"content-box"}}/></div>
 					<div class="small reallyDogSound">"뉴비 환영"</div>
 					<div class="text">
 						초등학교때 시작했다가, 중학교 때 초단을 따고 그만둔 검도를 대학교 때 다시 시작해서 지금도 하고 있습니다. <br/>

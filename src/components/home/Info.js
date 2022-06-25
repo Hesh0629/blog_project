@@ -42,13 +42,13 @@ const Info = () => {
 			<div class="school">Sogang Univ.</div>
 			<div class="dept">Department of Computer Science & Engineering</div>
 			<div >
-				<img src={rokaLogo} alt="ROKA" width="24px" height="24px" style={{paddingRight:"10px"}}/>Reserve Sergeant. ROKA
+				<img src={rokaLogo} alt="ROKA" width="24px" height="24px" style={{paddingRight:"10px", boxSizing:"content-box" }}/>Reserve Sergeant. ROKA
 			</div>
 			<div style={{paddingLeft:"34px"}}>
 				Reserve Duty {miliday}
 			</div>
 			<div>
-				<MdOutlineAlternateEmail style={{ paddingRight: '10px', width: '24px', height: '24px' }} />
+				<MdOutlineAlternateEmail style={{ paddingRight: '10px', boxSizing:"content-box"}} />
 				neogate@sogang.ac.kr
 			</div>
 			<div>
@@ -57,12 +57,12 @@ const Info = () => {
 					alt="gitHub"
 					width="24px"
 					height="24px"
-					style={{ paddingRight: '10px' }}
+					style={{ paddingRight: '10px' , boxSizing:"content-box"}}
 				/>
 				https://github.com/hesh0629
 			</div>
 			<div>
-				<img src={acmLogo} alt="acm" width="24px" height="24px" style={{ paddingRight: '10px' }} />
+				<img src={acmLogo} alt="acm" width="24px" height="24px" style={{ paddingRight: '10px', boxSizing:"content-box"}} />
 				Sogang ICPC Team
 			</div>
 			<div>
@@ -71,7 +71,7 @@ const Info = () => {
 					alt="release"
 					width="24px"
 					height="24px"
-					style={{ paddingRight: '10px' }}
+					style={{ paddingRight: '10px', boxSizing:"content-box"}}
 				/>
 				Release
 			</div>
