@@ -32,6 +32,21 @@ const News = () => {
                         </Card>
                     </UncontrolledCollapse>
                 </div>
+                <div class="wrapper" className="d-flex flex-column">
+                    <Button color="outline-dark" id="toggle2" className="w-75 h-100">
+                        <div class="title">
+                            # 2022.12.19
+                        </div>
+                    </Button>
+                    <UncontrolledCollapse toggler="#toggle2" className="m-0 p-0" >
+                        <Card class="">
+                            <CardBody class="content">
+                                22년도 가을학기가 끝났습니다.<br/>
+                                살면서 이리 힘든 적은 처음이였어요.
+                            </CardBody>
+                        </Card>
+                    </UncontrolledCollapse>
+                </div>
             </div>
 		</>
 	);

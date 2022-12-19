@@ -10,7 +10,8 @@ import {
 	SiReact,
 	SiScikitlearn,
 	SiPandas,
-	SiTensorflow
+	SiTensorflow,
+	SiPytorch
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import '../style/devStack.scss';
@@ -61,15 +62,19 @@ const DevStack = () => {
 				<div class="Studying">
 					<div class="title">Studying</div>
 					<div class="contents">
-						<div class="cmp" style={{padding: '30px 10px'}}>
+						<div class="cmp" style={{padding: '30px 0px'}}>
 							<SiTensorflow class="icon" />
 							TensorFlow
 						</div>
-						<div class="cmp">
+						<div class="cmp" style={{padding: '30px 20px'}}>
+							<SiPytorch class="icon" />
+							Pytorch
+						</div>
+						<div class="cmp"style={{padding: '30px 10px'}}>
 							<SiScikitlearn class="icon" />
 							Scikitlearn
 						</div>
-						<div class="cmp">
+						<div class="cmp"style={{padding: '30px 20px'}}>
 							<SiPandas class="icon" />
 							Pandas
 						</div>
