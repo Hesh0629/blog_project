@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
-
+@font-face{
+	font-family: "AppleLight";
+	src:url("../fonts/APPLESDGOTHICNEO-LIGHT.TTF");
+}
+@font-face{
+	font-family: "AppleMedium";
+	src:url("../fonts/APPLESDGOTHICNEO-MEDIUM.TTF");
+}
+@font-face{
+	font-family: "AppleThin";
+	src:url("../fonts/APPLESDGOTHICNEO-THIN.TTF");
+}
+@font-face{
+	font-family: "AppleRegular";
+	src:url("../fonts/APPLESDGOTHICNEO-REGULAR.TTF");
+}
+@font-face{
+	font-family: "AppleBOLD";
+	src:url("../fonts/APPLESDGOTHICNEO-BOLD.TTF");
+}
+@font-face{
+	font-family: "AppleHeavy";
+	src:url("../fonts/APPLESDGOTHICNEO-HEAVY.TTF");
+}
+@font-face{
+	font-family: "AppleExtraBold";
+	src:url("../fonts/APPLESDGOTHICNEO-EXTRABOLD.TTF");
+}
 .introduce {
 	display: flex;
 	flex-direction: column;
@@ -9,7 +36,7 @@
 	padding-top: 200px;
 	padding-bottom: 100px;
 	font-size: 18pt;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'AppleLight';
 	text-align: center;
 
 	.big-text {

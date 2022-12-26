@@ -1,5 +1,24 @@
 @import '~include-media/dist/include-media';
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
+@font-face{
+	font-family: "AppleLight";
+	src:url("../fonts/APPLESDGOTHICNEO-LIGHT.TTF");
+}
+@font-face{
+	font-family: "AppleMedium";
+	src:url("../fonts/APPLESDGOTHICNEO-MEDIUM.TTF");
+}
+@font-face{
+	font-family: "AppleThin";
+	src:url("../fonts/APPLESDGOTHICNEO-THIN.TTF");
+}
+@font-face{
+	font-family: "AppleRegular";
+	src:url("../fonts/APPLESDGOTHICNEO-REGULAR.TTF");
+}
+@font-face{
+	font-family: "AppleBOLD";
+	src:url("../fonts/APPLESDGOTHICNEO-BOLD.TTF");
+}
 @keyframes smoothAppear {
 	from {
 		opacity: 0;
@@ -36,12 +55,15 @@
 				margin: 5px 0;
 				justify-content: center;
 				text-align: left;
+				border: none;
 				.titleLink {
 					display: block;
 					color: white;
 					text-decoration: none;
 					font-size: 18pt;
-					font-family: 'Gowun Batang', serif;
+					font-family: 'AppleThin';
+					letter-spacing :1.5px;
+					border: none;
 				}
 			}
 		}
@@ -53,17 +75,18 @@
 			padding: 0;
 			.linkBox {
 				padding: 0;
-				margin: 5px 0;
+				margin: 3px 0;
 				justify-content: center;
 				text-align: right;
+				padding-bottom: 5px;
 				.list {
 					display: inline-block;
-					margin: 0 10px;
+					margin: 0 20px;
 					.box {
 						color: white;
 						text-decoration: none;
 						font-size: 18pt;
-						font-family: 'Gowun Batang', serif;
+						font-family: "AppleThin";
 					}
 				}
 			}

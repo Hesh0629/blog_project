@@ -1,6 +1,32 @@
 @import '~include-media/dist/include-media';
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@font-face{
+	font-family: "AppleLight";
+	src:url("../fonts/APPLESDGOTHICNEO-LIGHT.TTF");
+}
+@font-face{
+	font-family: "AppleMedium";
+	src:url("../fonts/APPLESDGOTHICNEO-MEDIUM.TTF");
+}
+@font-face{
+	font-family: "AppleThin";
+	src:url("../fonts/APPLESDGOTHICNEO-THIN.TTF");
+}
+@font-face{
+	font-family: "AppleRegular";
+	src:url("../fonts/APPLESDGOTHICNEO-REGULAR.TTF");
+}
+@font-face{
+	font-family: "AppleBOLD";
+	src:url("../fonts/APPLESDGOTHICNEO-BOLD.TTF");
+}
+@font-face{
+	font-family: "AppleHeavy";
+	src:url("../fonts/APPLESDGOTHICNEO-HEAVY.TTF");
+}
+@font-face{
+	font-family: "AppleExtraBold";
+	src:url("../fonts/APPLESDGOTHICNEO-EXTRABOLD.TTF");
+}
 
 .info {
 	display: flex;
@@ -15,7 +41,7 @@
 		padding-left: 80px;
 	}
 	font-size: 18pt;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'AppleBOLD';
 	opacity: 1;
 
 	.name {
@@ -25,7 +51,7 @@
 
 	.school {
 		display: inline-block;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'AppleBOLD';
 		font-size: 36pt;
 		width: auto;
 		margin: 0;

@@ -4,14 +4,14 @@ import '../style/DogSound.scss';
 import mclarenLogo from './img/mclaren.png';
 import kendo from './img/kendo.jpg';
 const DogSound = () => {
-	const effect = useScrollFadeIn('down');
+	const effect1 = useScrollFadeIn('down');
 	const effect2 = useScrollFadeIn('down');
 	const effect3 = useScrollFadeIn('down');
 	return (  
 		<>
 			<div class="dogSound">
-				<div class="wrapper" {...effect}>
-					<div class="big">데이터를 다루는 것을 좋아합니다.</div>
+				<div class="wrapper" {...effect1}>
+					<div class="big">AI와 데이터를 다루는 것을 좋아합니다.</div>
 					<div class="small">(아직 미숙하지만요)</div>
 					<div class="text">
 						원래는 생물학을 공부하고 싶었고 다양한 경험을 하고 싶어서 그런지 컴퓨터공학은 시작이
@@ -19,9 +19,7 @@ const DogSound = () => {
 						<br />
 						그러다가 우연한 기회로 AI 공부	를 시작하면서 흥미를 붙이기 시작했고, 지금도 부족하지만 꾸준히 공부중입니다.
 						<br />
-						특히 사람들에게 큰 영향을 주는 유전 정보와 질병 진단에 관심이 있습니다.
-						<br />
-						그렇기에 Data science와 Computer Vision에 대하여 공부 중입니다.
+						그중에서도 computer vision에 대해 관심있게 공부하고 있습니다.
 					</div>
 				</div>
 				<div class="wrapper" {...effect2}>

@@ -7,7 +7,7 @@ const Header = () => {
 				<div class="title">
 					<div class="titleBox">
 						<a class="titleLink" href="http://hesh0629.github.io" style={{ cursor: 'pointer' }}>
-							슈뢰딩거의 진돗개
+							Seonghwan Han
 						</a>
 					</div>
 				</div>
