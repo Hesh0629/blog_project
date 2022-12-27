@@ -12,7 +12,7 @@ const Models = () => {
                 </div>
 				<div class="small-title">
                     근데 아직 공부중임<br/>
-                    벤?또 ML
+                    BentoML 언제하지
                 </div>
 			</div>
 		</div>
