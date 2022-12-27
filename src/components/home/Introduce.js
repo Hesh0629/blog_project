@@ -1,12 +1,11 @@
 import React from 'react';
-import Header from './Header';
 import useScrollFadeIn from './useScrollFadeIn';
 import '../style/introduce.scss';
 const Introduce = () => {
 	const effect = useScrollFadeIn('down');
 	return (
 		<div class="introduce">
-			<Header />
+			
 			<div {...effect}>
 				<div class="big-text">배우는 사람</div>
 				<div class="small-text">아직 공부할 게 많은 학부생입니다.</div>
