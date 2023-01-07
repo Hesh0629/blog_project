@@ -27,7 +27,10 @@
 	src:url("../fonts/APPLESDGOTHICNEO-EXTRABOLD.TTF");
 }
 .wrappers{
-	width: 1400px;
+	width: 100%;
+	@media (max-width: 1080px) {
+		width: 1400px;
+	}
 	.models{
 		display: flex;
 		flex-direction: column;
